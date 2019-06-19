@@ -8,4 +8,8 @@ QMAKE_CXXFLAGS += -pedantic-errors
 QMAKE_CXXFLAGS += -Wall -Weffc++ -Wextra -Wsign-conversion -Werror
 
 SOURCES += \
+        io.cpp \
         main.cpp
+
+HEADERS += \
+    io.h
